@@ -8,7 +8,7 @@ public class Mercancia : MonoBehaviour
     public MoneyManager moneyManager;
     void start ()
     {
-        moneyManager = FindObjectOfType<moneyManager>();
+        moneyManager = FindObjectOfType<MoneyManager>();
     }
     void OnCollisionEnter(Collision collision)
     {
